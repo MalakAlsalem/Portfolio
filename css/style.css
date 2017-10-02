@@ -1,0 +1,121 @@
+* {
+	font-family: 'Salsa', cursive;
+}
+
+body {
+	font-size: 20px;
+	color: #324371;
+	text-align: center;
+	background-color: #d8d8de;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row {
+	margin-bottom: 40px;
+}
+.project {
+	width: 100%;
+	margin: auto;
+}
+
+@media screen and (min-width:600px) {
+	.project1, .project2, .project3 {
+		width: 33.333%;
+	}
+	.title-logo {
+		width: 30%;
+	}
+}
+
+@media screen and (max-width:599px) {
+	img {
+		width: 50%;
+	}
+	#pnuLogo {
+		margin-left: 20px;
+		width: 100%;
+	}
+	.super-title {
+		float: center;
+	}
+	.title-logo {
+		width: 20%;
+	}
+}
+
+.img {
+	max-width: 100%;
+	margin: auto;
+}
+
+.space {
+	margin-bottom: 40px;
+}
+
+.noBullets {
+	list-style-type: none;
+}
+
+
+.title-logo {
+	max-width: 30%;
+	margin-top: 20px;
+}
+
+.super-title {
+	font-size: 35px;
+	float: right;
+}
+
+#pnuLogo {
+	width: 60%;
+}
+
+.aboutMe {
+	font-size: 25px;
+	margin: 15px;
+}
+
+.form {
+	display: inline;
+}
+
+#personal-pic {
+	width: 50%;
+}
+
+.head1 {
+	font-size: 40px;
+	margin: 10px;
+	text-align: center;
+}
+
+.button {
+	min-width: 48px;
+	min-height: 48px;
+	background-color: #324371;
+	color : white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 10px 10px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+.button-shadow:hover {
+	box-shadow: 0 12px 16px 0 rgba(65, 65, 78, 0.83), 0 17px 50px 0 rgba(65, 65, 78, 0.83);
+}
+
+.footer {
+	background-color: #324371;
+	color: #d8d8de;
+	min-width: 100%;
+}
